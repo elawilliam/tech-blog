@@ -38,5 +38,4 @@ router.post("/", withAuth, (req, res) => {
     });
 });
 
-// Export router //
 module.exports = router;
